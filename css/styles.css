@@ -3,6 +3,7 @@ body {
   background-repeat: repeat;
   background-size: 3em;
   text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 #container {
@@ -13,6 +14,7 @@ body {
 
 img {
   padding-bottom: 2em;
+  border: .5em dashed rgb(39, 39, 138);
 }
 
 p {
@@ -21,6 +23,22 @@ p {
 
 h2 {
   color:rgb(39, 39, 138);
+}
+
+h1 {
+  padding: .5em;
+  padding-top: 1em;
+}
+
+.intro {
+  color:seashell;
+  background-color:rgb(39, 39, 138);
+  padding-bottom: .5em;
+}
+
+.intro h2{
+  color:seashell;
+  padding-top: .5em;
 }
 
 /* rgba(255, 255, 255, 0.7) */
